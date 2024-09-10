@@ -1,3 +1,37 @@
-.myButton{
-    font-size: 1.2rem;
-    }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(89, 58, 175);
+}
+
+input,
+textarea {
+  margin-bottom: 15px;
+  background-color: rgba(255, 228, 196, 0);
+  color: azure;
+}
+
+.productForm {
+  border: 1px solid wheat;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 20vw;
+  height: 20vh;
+  padding: 15px;
+}
+
+.productTable {
+  border-collapse: collapse;
+  margin-top: 5vh;
+  width: 70vw;
+  border: 1px solid wheat;
+  color: azure;
+}
+
+td {
+  text-align: center;
+  border: 1px solid wheat;
+}

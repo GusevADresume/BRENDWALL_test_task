@@ -8,6 +8,7 @@
     <script type="text/javascript" src={% static "js/main.js" %}></script>
 </head>
 <body>
+    <p id="errorP"></p>
     <form class='productForm' id = 'productForm'>
         <input
         type="text"
@@ -24,8 +25,18 @@
         <input type="submit">
     </form>
 
-    <table>
-        
+    <table class="productTable">
+        <thead>
+        <tr>
+            <td>id</td>
+            <td>Название</td>
+            <td>Описание</td>
+            <td>Цена</td>
+        </tr>
+    </thead>
+    <tbody class="productTableBody">
+
+    </tbody>
     </table>
 
 </body>
